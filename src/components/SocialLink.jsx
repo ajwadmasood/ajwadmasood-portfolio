@@ -1,14 +1,15 @@
 import React from "react";
 
 const SocialLink = ({ link, path }) => {
-    const footerIconStyle = {
-      color: "hsl(196, 78%, 60%)",
-      // Add more styles here if needed
-    };
+  const footerIconStyle = {
+    color: "hsl(196, 78%, 60%)",
+    // Add more styles here if needed
+  };
   return (
     <li>
-      <a href={link} className="footer-social-icon" style={footerIconStyle}>
+      <a href={link} className="social-icon" style={{ color: "blue" }}>
         <svg
+          style={{ color: "blue" }}
           xmlns="http://www.w3.org/2000/svg"
           height="1em"
           viewBox="0 0 448 512"

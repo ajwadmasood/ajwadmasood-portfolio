@@ -1,16 +1,26 @@
 import React from "react";
 import img from "../images/project-1.jpeg";
 
-const PortfolioProjects = ({ img, firstPath, name, secondPath }) => {
+const PortfolioProjects = ({
+  img,
+  text,
+  firstPath,
+  name,
+  secondPath,
+  viewBox,
+}) => {
   return (
     <article class="single-project">
       <div class="project-container">
         <img src={img} alt="single project" />
-        <a href="https://www.johnsmilga.com" class="project-icon">
+        {/* <a href="https://www.johnsmilga.com" class="project-icon"> */}
+        <a className="project-icon">
           <svg
+            // className={iconClass}
+            // className="carbon-icon"
             xmlns="http://www.w3.org/2000/svg"
             height="1em"
-            viewBox="0 0 640 512"
+            viewBox={viewBox}
           >
             <path d={firstPath} />
           </svg>
@@ -19,10 +29,7 @@ const PortfolioProjects = ({ img, firstPath, name, secondPath }) => {
       </div>
       <div class="project-details">
         <h4>{name}</h4>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eveniet
-          amet odit aperiam, provident cum possimus sapiente minus quos! Ipsum?
-        </p>
+        <p>{text}</p>
         <div class="project-footer">
           <span>
             <svg

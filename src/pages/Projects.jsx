@@ -21,8 +21,10 @@ const Projects = () => {
                 key={project.id}
                 img={project.img}
                 name={project.name}
+                text={project.text}
                 firstPath={project.firstPath}
                 secondPath={project.secondPath}
+                viewBox={project.viewBox}
               />
             );
           })}
