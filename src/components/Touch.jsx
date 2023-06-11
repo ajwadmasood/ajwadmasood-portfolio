@@ -1,6 +1,7 @@
 import Title from "./Title";
 import video from "../videos/connect.mp4";
 import image from "../images/project-1.jpeg";
+import { Link } from "react-router-dom";
 
 const Touch = () => {
   return (
@@ -26,9 +27,9 @@ const Touch = () => {
           start a conversation and explore how we can work together to bring
           your ideas to life. Looking forward to connecting with you soon!
         </p>
-        <a href="contact.html" className="btn">
-          contact me
-        </a>
+        <Link class="btn hero-btn" to="/contact">
+          Contact me
+        </Link>
       </div>
     </section>
   );

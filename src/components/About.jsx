@@ -1,5 +1,6 @@
 import aboutImg from "../images/code.png";
 import Title from "./Title";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -27,9 +28,9 @@ const About = () => {
             updated with the latest industry trends and continuously enhancing
             my skills to deliver exceptional digital experiences.
           </p>
-          <a href="about.html" className="btn">
+          <Link class="btn hero-btn" to="/about">
             about me
-          </a>
+          </Link>
         </article>
       </div>
     </section>

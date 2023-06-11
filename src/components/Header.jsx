@@ -14,7 +14,7 @@ const Header = () => {
             Contact me
           </a> */}
           <Link class="btn hero-btn" to="/contact">
-            Contact
+            Contact me
           </Link>
           <ul class="social-icons hero-icons">
             <li>
