@@ -10,9 +10,12 @@ const Header = () => {
           <div class="underline"></div>
           <h1>i'm Ajwad</h1>
           <h4>FullStack Engineer</h4>
-          <a href="contact.html" class="btn hero-btn">
+          {/* <a href="contact.html" class="btn hero-btn">
             Contact me
-          </a>
+          </a> */}
+          <Link class="btn hero-btn" to="/contact">
+            Contact
+          </Link>
           <ul class="social-icons hero-icons">
             <li>
               <a href="https://www.twitter.com" class="social-icon">

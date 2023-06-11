@@ -47,7 +47,7 @@ const Contact = () => {
         </article>
         <article class="contact-form">
           <h3>contact us</h3>
-          <form>
+          <form action="https://formspree.io/f/xeqwbbdp" method="POST">
             <div class="form-group">
               <input
                 type="text"
