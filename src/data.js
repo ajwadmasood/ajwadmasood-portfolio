@@ -63,12 +63,10 @@ export const frontend = [
   {
     id: 2,
     language: "Javascript",
-    percentage: "100%",
   },
   {
     id: 3,
     language: "React",
-    percentage: "100%",
   },
 ];
 
@@ -76,12 +74,14 @@ export const backend = [
   {
     id: 1,
     language: "Node",
-    percentage: "100%",
   },
   {
     id: 2,
     language: "MongoDB",
-    percentage: "100%",
+  },
+  {
+    id: 3,
+    language: "Postgres",
   },
 ];
 
