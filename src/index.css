@@ -351,6 +351,7 @@ Sidebar
 }
 
 .social-icon {
+  fill: var(--clr-primary-5);
   font-size: 1.5rem;
   /* color: var(--clr-grey-1); */
   -webkit-transition: var(--transition);
@@ -505,6 +506,7 @@ Services
 .service:hover {
   background: var(--clr-primary-5);
   color: var(--clr-white);
+  fill: var(--clr-white);
 }
 .service:hover p {
   color: var(--clr-white);
@@ -1088,7 +1090,7 @@ Products Page
 .project-footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  color: var(--clr-primary-5);
+  fill: var(--clr-primary-5);
 }
 .project-footer a {
   color: var(--clr-primary-5);

@@ -2,6 +2,8 @@ import { socialLinks } from "../data";
 import SocialLink from "./SocialLink";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="footer" style={{ color: "blue" }}>
       <ul className="social-icons" style={{ color: "blue" }}>
@@ -42,7 +44,8 @@ const Footer = () => {
         </li> */}
       </ul>
       <p>
-        &copy; 2023 <span id="date"></span> Ajwad Masood. all rights reserved
+        &copy; {currentYear} <span id="date"></span> Ajwad Masood. all rights
+        reserved
       </p>
     </footer>
   );

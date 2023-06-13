@@ -7,9 +7,8 @@ const SocialLink = ({ link, path }) => {
   };
   return (
     <li>
-      <a href={link} className="social-icon" style={{ color: "blue" }}>
+      <a href={link} className="social-icon">
         <svg
-          style={{ color: "blue" }}
           xmlns="http://www.w3.org/2000/svg"
           height="1em"
           viewBox="0 0 448 512"

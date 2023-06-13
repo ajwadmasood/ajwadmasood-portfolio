@@ -40,13 +40,13 @@ const Contact = () => {
                 href="https:/www.linkedin.com/in/ajwad-masood-3a40a7125/"
                 style={{ textTransform: "lowercase" }}
               >
-                <span> </span>Ajwad Masood{" "}
+                <span> </span>AjwadMasood{" "}
               </a>
             </h4>
           </div>
         </article>
         <article class="contact-form">
-          <h3>contact us</h3>
+          <h3>contact me</h3>
           <form action="https://formspree.io/f/xeqwbbdp" method="POST">
             <div class="form-group">
               <input

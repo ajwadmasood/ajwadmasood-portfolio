@@ -15,7 +15,9 @@ const Navbar = () => {
       <nav class="nav" id="nav">
         <div class="nav-center">
           <div class="nav-header">
+            <Link to="/">
             <img src={navLogo} class="nav-logo" alt="nav logo" />
+            </Link>
             <button class="nav-btn" id="nav-btn" onClick={handleNavBtnClick}>
               {/* <i class="fas fa-bars"></i> */}
               <svg
