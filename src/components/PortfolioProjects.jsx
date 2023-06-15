@@ -8,11 +8,14 @@ const PortfolioProjects = ({
   name,
   secondPath,
   viewBox,
+  link
 }) => {
   return (
     <article class="single-project">
       <div class="project-container">
-        <img src={img} alt="single project" />
+        <a href="https://carbon-builders.netlify.app">
+          <img src={img} alt="single project" />
+        </a>
         {/* <a href="https://www.johnsmilga.com" class="project-icon"> */}
         <a className="project-icon">
           <svg
@@ -28,7 +31,9 @@ const PortfolioProjects = ({
         </a>
       </div>
       <div class="project-details">
-        <h4>{name}</h4>
+        <a href="https://carbon-builders.netlify.app">
+          <h4>{name}</h4>
+        </a>
         <p>{text}</p>
         <div class="project-footer">
           <span>
