@@ -25,6 +25,7 @@ const Projects = () => {
                 firstPath={project.firstPath}
                 secondPath={project.secondPath}
                 viewBox={project.viewBox}
+                // link={project.link}
               />
             );
           })}

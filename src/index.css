@@ -1104,6 +1104,10 @@ Products Page
   color: var(--clr-primary-5) !;
 }
 
+.project-link {
+  color: black;
+}
+
 .project-footer a:hover {
   color: var(--clr-primary-1);
 }
@@ -1241,8 +1245,8 @@ Sidebar
 .sidebar-links a:hover {
   color: var(--clr-primary-5);
 }
-.close-btn-cross{
-  color:red;
+.close-btn-cross {
+  color: red;
 }
 
 @media screen and (min-width: 768px) {
