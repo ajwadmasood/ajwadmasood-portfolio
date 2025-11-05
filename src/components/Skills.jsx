@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import Title from "./Title";
 import { frontend } from "../data";
 import { backend } from "../data";
+import { tools } from "../data";
 import Skill from "./Skill";// Import the CSS file containing the styles
 
 const Skills = () => {
@@ -48,6 +49,12 @@ const Skills = () => {
         <article>
           <h3>back end</h3>
           {backend.map((skill) => {
+            return <Skill {...skill} key={skill.id} />;
+          })}
+        </article>
+        <article>
+          <h3>cloud</h3>
+          {tools.map((skill) => {
             return <Skill {...skill} key={skill.id} />;
           })}
         </article>
