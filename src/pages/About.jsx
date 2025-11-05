@@ -9,16 +9,13 @@ const About = () => {
         </div>
         <div class="section-center page-info">
           <p>
-            Hello, I am Ajwad Masood. I am a recent graduate in Computer Science from NUST University,
-            specializing in FullStack development. I am passionate about
-            building web applications, with experience in both frontend and
-            backend technologies.
+            I'm a CS Master's student at The University of Texas at Dallas and a software engineer who enjoys turning ideas into scalable products.
           </p>
           <p>
-            I have a strong foundation in the MERN stack and am passionate about
-            building robust and scalable systems. I am dedicated to staying
-            updated with the latest industry trends and continuously enhancing
-            my skills to deliver exceptional digital experiences.
+            I’ve built and deployed end-to-end systems, from fast, responsive UIs in React to distributed backends on AWS handling millions of requests. I care about great developer experience, clean code, and building things that actually help people.
+          </p>
+          <p>
+            Always learning, experimenting, and shipping.
           </p>
         </div>
       </section>
